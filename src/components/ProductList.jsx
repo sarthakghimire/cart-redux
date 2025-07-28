@@ -4,7 +4,15 @@ import ProductCard from "./ProductCard";
 
 const ProductList = () => {
   return (
-    <div style={{ display: "flex", flexWrap: "wrap" }}>
+    <div
+      style={{
+        display: "flex",
+        flexWrap: "wrap",
+        border: "1px solid",
+        marginRight: "5px",
+        marginBottom: "5px",
+      }}
+    >
       {products.map((product) => (
         <ProductCard key={product.id} product={product} />
       ))}

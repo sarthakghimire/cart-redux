@@ -13,7 +13,15 @@ const Cart = () => {
 
   if (cartItems.length === 0) {
     return (
-      <div style={{ border: "1px solid black", width: "50%", padding: "4px" }}>
+      <div
+        style={{
+          border: "1px solid black",
+          width: "50%",
+          padding: "4px",
+          marginRight: "5px",
+          marginBottom: "5px",
+        }}
+      >
         <h1>Cart</h1>
         <p>Your cart is empty 🛒</p>
       </div>

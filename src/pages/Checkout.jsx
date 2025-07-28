@@ -12,7 +12,7 @@ const Checkout = () => {
   );
 
   return (
-    <div style={{ border: "1px solid green", width: "50%" }}>
+    <div style={{ border: "1px solid", width: "50%" }}>
       <h2>Checkout</h2>
 
       {cartItems.length === 0 ? (
