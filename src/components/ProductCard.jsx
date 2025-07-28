@@ -12,6 +12,7 @@ const ProductCard = ({ product }) => {
           margin: "10px",
           padding: "20px",
           width: "40%",
+          borderRadius: "5px",
         }}
       >
         <h3>{product.title}</h3>
