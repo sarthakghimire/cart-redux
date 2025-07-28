@@ -22,7 +22,8 @@ const Checkout = () => {
           <ul>
             {cartItems.map((item) => (
               <li key={item.id}>
-                {item.title} × {item.quantity} = ${item.price * item.quantity}
+                {item.title} × {item.quantity} = $
+                {(item.price * item.quantity).toFixed(2)}
               </li>
             ))}
           </ul>
