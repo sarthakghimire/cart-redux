@@ -9,7 +9,7 @@ const ProductCard = ({ product }) => {
         className="product-card"
         style={{
           border: "1px solid black",
-          margin: "20px",
+          margin: "10px",
           padding: "20px",
           width: "40%",
         }}
